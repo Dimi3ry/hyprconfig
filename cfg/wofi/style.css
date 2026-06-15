@@ -1,0 +1,73 @@
+/*   _ _ _ _____ _____ _ 
+    | | | |     |   __|_|
+    | | | |  |  |   __| |
+    |_____|_____|__|  |_|  STYLE
+    
+    by Bina
+*/
+
+
+*{
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+window {
+  font-size: 14px;
+  font-family: "JetBrains Mono";
+  background-color: rgba(0, 0, 0,.9);
+  border-radius: 8px;
+  opacity: 0.90;
+}
+
+#outer-box {
+  margin: 10px 10px 20px 10px;
+  background-color: rgba(0,0,0,.9);
+  opacity: 1;
+}
+
+#inner-box {
+  margin: 10px;
+  background-color: rgba(0,0,0,.9);
+  opacity: 0.90;
+}
+
+#entry {
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+#entry #text {
+  padding: 0px 0px 0px 10px;
+  font-weight: normal;
+  color: rgba(179,181,170, 0.8);
+}
+
+#entry:selected {
+  background-color: rgba(179,181,170,.9);
+}
+
+#entry:selected #text {
+  padding: 0px 0px 0px 10px;
+  font-weight: normal;
+  color: rgba(0,0,0,1);
+}
+
+#input {
+  background: transparent;
+  margin: 0px 5px 0px 20px;
+  color: @color7;
+  padding: 5px;
+}
+
+#image {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#scroll {
+  margin: 0px;
+}
+
+
